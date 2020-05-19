@@ -15,4 +15,4 @@ while nc != n:
     elif n < nc:
         print("Mais... tente de novo")
 
-print("O computador pensou no número {} e você precisou de {} tentativas para acertar".format(nc, cont))
+print(f"O computador pensou no número {nc} e você precisou de {cont} tentativas para acertar")
