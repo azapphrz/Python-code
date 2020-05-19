@@ -53,5 +53,5 @@ while novaJogada != "n":   # Executa o programa n vezes
         print("JÔ\033[m")
         sleep(1)
 
-    print("O computador escolheu {} e você escolheu {}".format(escolhaPC, escolha))
+    print(f"O computador escolheu {escolhaPC} e você escolheu {escolha}")
     novaJogada = input("Deseja continuar? [S/N]: ").strip().lower()[0]
