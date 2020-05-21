@@ -1,2 +1,2 @@
 # Python
- Code wiritten in python
+ Codes written in python
