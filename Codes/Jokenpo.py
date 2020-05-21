@@ -22,36 +22,33 @@ while novaJogada != "n":   # Executa o programa n vezes
 # Faz as comparações para ver quem ganhou
     if (escolha == "pedra"):
         if (escolhaPC == "Pedra"):
-            print("\033[1;40m EMPATE!!!!! \033[m")
+            print("\033[1;40mEMPATE!!!\033[m")
         elif (escolhaPC == "Papel"):
-            print("\033[1;41m VOCÊ PERDEU!!!!! \033[m")
+            print("\033[1;41mVOCÊ PERDEU!!!\033[m")
         elif (escolhaPC == "Tesoura"):
-            print("\033[1;42m VOCÊ GANHOU!!!!! \033[m")
+            print("\033[1;42mVOCÊ GANHOU!!!\033[m")
 
     elif (escolha == "papel"):
         if ( escolhaPC == "Papel"):
-            print("\033[1;40m EMPATE!!!!! \033[m")
+            print("\033[1;40mEMPATE!!!\033[m")
         elif (escolhaPC == "Tesoura"):
-            print("\033[1;41m VOCÊ PERDEU!!!!! \033[m")
+            print("\033[1;41mVOCÊ PERDEU!!!\033[m")
         elif (escolhaPC == "Pedra"):
-            print("\033[1;42m VOCÊ GANHOU!!!!! \033[m")
+            print("\033[1;42mVOCÊ GANHOU!!!\033[m")
 
     elif (escolha == "tesoura"):
         if (escolhaPC == "Tesoura"):
-            print("\033[1;40m EMPATE!!!!! \033[m")
+            print("\033[1;40mEMPATE!!!\033[m")
         elif (escolhaPC == "Pedra"):
-            print("\033[1;41m VOCÊ PERDEU!!!!! \033[m")
+            print("\033[1;41mVOCÊ PERDEU!!!\033[m")
         elif(escolhaPC == "Papel"):
-            print("\033[1;42m VOCÊ GANHOU!!!!! \033[m")
+            print("\033[1;42mVOCÊ GANHOU!!!\033[m")
     else:
-        print("Opção invalida! Tente novamente")
-        escolha = input("Escolha entre pedra, papel e tesoura: ").strip().lower()
-        print("\033[1;34mJO") 
-        sleep(1)
-        print("KEN")
-        sleep(1)
-        print("JÔ\033[m")
-        sleep(1)
+        print("Opção invalida!")
 
     print(f"O computador escolheu {escolhaPC} e você escolheu {escolha}")
     novaJogada = input("Deseja continuar? [S/N]: ").strip().lower()[0]
+
+print("=" * 18)
+print("\033[1;44mOBRIGADO POR JOGAR\033[m")
+print("=" * 18)
