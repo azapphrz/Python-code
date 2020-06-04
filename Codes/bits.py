@@ -22,17 +22,11 @@ inteiro = bin(trunc(n))                                 # Pega binario correspon
 numBinDec = []                                          # Lista para guardar a parte decimal do numero
 decimal = n % 1                                         # Pega a parte decimal do numero
 
-while True:                                             # Entra em "loop infinito"
-    cont += 1                                           # contador para mantiçar caso entre em um loop
+while (cont != x):
+    cont += 1
     bit = decimal * 2                                   # Multiplica por 2, e guarda o resultado
     numBinDec.append(trunc(bit))                        # Guarda na lista a parte inteira do numero
     decimal = bit % 1                                   # Pega a parte decimal do numero
-    if (cont == x):                                     # Testa o contador é igual a complemnto
-        break                                           # Sai do "loop infinito"
-    elif (decimal == 0):                                # Testa o numero tem um binario simples
-        for c in range(cont, x):                        
-            numBinDec.append(0)                         # Adicionar mais (precisão - contador) zeros
-        break                                           # Sai do "loop infinito"
 
 print(f"O número é {inteiro[2:]}", end = " ")
 for p in numBinDec:
