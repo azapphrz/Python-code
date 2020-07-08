@@ -7,14 +7,8 @@ Escolha: '''))
 
 if (Precisao == 1):
     x = 23
-elif (Precisao == 2):
-    x = 52
 else:
-    Precisao = int(input('''
-Tente novamente!
-[1] Precisão simples
-[2] Precisão dupla
-Escolha: '''))
+    x = 52
 
 n = float(input("Numero: "))                            # Número que quer converter para binario
 cont = 0
@@ -28,8 +22,8 @@ while (cont != x):
     numBinDec.append(trunc(bit))                        # Guarda na lista a parte inteira do numero
     decimal = bit % 1                                   # Pega a parte decimal do numero
 
-print(f"O número é {inteiro[2:]}", end = " ")
+print(f"O número é: {inteiro[2:]}", end = " ")
 for p in numBinDec:
     print(f"{p}", end = "")
     
-input("\nPressione ENTER para cintinuar...")
+input("\nPressione ENTER para continuar...")

@@ -3,7 +3,7 @@ print("VOU TENTAR DESCOBRIR A SENHA DO SEU COFRE!!!")
 cont = contTotal = tentativa = 0    # Contador para decobrir a senha
 n = int(input("Digite a senha do seu cofre. (000 até 999): "))
 # Senha hipotetica 123
-n1 =n % 10              # Pega o número na primeira posição, no caso da senha (3)
+n1 = n % 10              # Pega o número na primeira posição, no caso da senha (3)
 n2 = n // 10 % 10      # Pega o número na segunda posição, no caso da senha (2)
 n3 = n // 100 % 10     # Pega o número na teceira posição, no caso da senha (1)
 

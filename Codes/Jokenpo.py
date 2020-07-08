@@ -50,5 +50,5 @@ while novaJogada != "n":   # Executa o programa n vezes
     novaJogada = input("Deseja continuar? [S/N]: ").strip().lower()[0]
 
 print("=" * 18)
-print("\033[1;44mOBRIGADO POR JOGAR\033[m")
+print("\033[1;34mOBRIGADO POR JOGAR\033[m")
 print("=" * 18)
