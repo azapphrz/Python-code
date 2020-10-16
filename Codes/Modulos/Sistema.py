@@ -1,5 +1,5 @@
-from Modulos.cadastro import *
-from Modulos.arquivo import *
+from Modulos.Cadastro import *
+from Modulos.Arquivo import *
 from time import sleep
 
 

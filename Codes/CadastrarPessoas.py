@@ -1,3 +1,3 @@
-from Modulos.sistema import chamaPrograma
+from Modulos.Sistema import chamaPrograma
 
 chamaPrograma()

@@ -1,5 +1,5 @@
-from Modulos.sistema import *
-from Modulos.arquivo import *
+from Modulos.Sistema import *
+from Modulos.Arquivo import *
 
 
 def pessoasCadastradas():
